@@ -1,0 +1,103 @@
+@use "../theme/variables.scss";
+
+.product_subsection {
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    margin-top:10vh;
+
+    .product_type {
+        text-align:center;
+        font-size:40px;
+        margin-top:10vh;
+        margin-bottom:1vh;
+        color:variables.$text-color;
+    }
+
+    .product_desc {
+        text-align:center;
+        margin-bottom:10vh;
+        font-size:20px;
+        color:variables.$text-highlight;
+    }
+
+    ul {
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction:row;
+
+        strong {
+            font-size:25px;
+            text-align:center;
+            width:100%;
+            display:block;
+            margin-bottom:5vh;
+            color:variables.$text-color;
+        }
+
+        li {
+
+            .product_img_container {
+                position:relative;
+                height:40vh;
+                width:40vh;
+                overflow:hidden;
+                border-radius:50px;
+
+                img {
+                position:relative;
+                object-fit:cover;
+                height:100%;
+                width:100%;
+                z-index:5;
+                border-radius:50px;
+                overflow:hidden;
+                transition:0.5s;
+                }
+
+                p {
+                position:absolute;
+                opacity:0%;
+                color:white;
+                transition:0.5s;
+                z-index:7;
+                top:35%;
+                display:block;
+                text-align:center;
+                margin-left:15px;
+                margin-right:15px;
+                font-size:25px;
+                line-height:30px;
+                }
+
+                .product_layer{
+                    position:absolute;
+                    background-color:black;
+                    opacity:0%;
+                    top:0;
+                    width:100%;
+                    height:100%;
+                    z-index:6;
+                    transition:0.5s;
+                    border-radius:50px;
+                }
+
+                &:hover {
+
+                    p{
+                    opacity:100%;
+                    }
+
+                    .product_layer{
+                        opacity:50%;
+                    }
+
+                    img{
+                    transform:scale(1.2);
+                    }
+                }
+            }
+        }
+    }
+}
