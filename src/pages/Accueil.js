@@ -1,7 +1,6 @@
  import React from 'react'
  import Navbar from '../components/Navbar'
  import homePhoto from '../img/devanture.jpg'
- import GoogleMap from '../components/GoogleMap'
 
  function Accueil() {
    return (
