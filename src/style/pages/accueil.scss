@@ -1,0 +1,39 @@
+@use "../theme/variables.scss";
+
+h1 {
+    font-size:25px;
+    text-align:center;
+    margin-top:10vh;
+    margin-bottom:10vh;
+    color:variables.$text-color;
+}
+
+p {
+    color:variables.$text-color;
+    margin-left:25vw;
+    margin-right:25vw;
+    margin-bottom:15vh;
+}
+
+.map-container {
+    height:50vh;
+    width: 50vw;
+    margin:auto;
+
+    iframe {
+        height:100%;
+        width:100%;
+    }
+}
+
+.home-photo-container {
+    height:70vh;
+    width: 70vw;
+    margin:auto;
+
+    img {
+        height:100%;
+        width:100%;
+        object-fit:contain;
+    }
+}

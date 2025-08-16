@@ -8,15 +8,26 @@ function Navbar() {
     <div className='navigation-menu'>
     <nav>
         <ul>
-            <li><Link to={"/produits"}>Produits</Link></li>
+            <li>
+              <Link to={"/produits"}>Produits</Link>
+              <ul className="dropdown-content">
+                <li>Lithothérapie</li>
+                <li>Aromathérapie</li>
+                <li>Bougies</li>
+                <li>Décorations</li>
+                <li>Oracles</li>
+                <li>Encens et fumigations</li>
+                <li>Sonothérapie</li>
+                <li>Pendules</li>
+                <li>Religion</li>
+              </ul>
+            </li>
             <li><Link to={"/prestations"}>Prestation</Link></li>
-            <li></li>
             <li><Link to={"/evenements"}>Evènements</Link></li>
-            <li><Link to={"/contact"}>Nous retrouver</Link></li>
         </ul>
     </nav>
     <section class="banner_container">
-        <Link to={"/accueil"}>
+        <Link to={"/"}>
         <div class="logo_container"><img src={logo} alt=""/></div>
         <img src={banner} alt="night sky"/>
         <div class="banner_layer"></div>

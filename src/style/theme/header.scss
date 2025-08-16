@@ -1,9 +1,12 @@
 @use "../theme/variables.scss";
 
 nav {
+    position:relative;
     width: 100%;
     height:10vh;
     position:sticky;
+    background-color:#ffffff;
+    z-index:30;
 
     ul {
         display:flex;
@@ -13,25 +16,62 @@ nav {
         height:100%;
 
         li {
+            position:relative;
+            display:block;
+
+            a {
             color:variables.$text-color;
             font-weight:700;
             font-size:25px;
 
-            a {
-
                 &:hover {
                     color:variables.$text-highlight;
                 }
+            }
+
+            .dropdown-content {
+            display:flex;
+            flex-direction:column;
+            position: absolute;
+            background-color: #ffffff;
+            z-index: 2000;
+            transition:all, 0.3s;
+            opacity:0;
+            overflow:hidden;
+            font-size:18px;
+            line-height:30px;
+            padding:25px 25px 25px 25px;
+            width:160px;
+            margin-left:-60px;
+            height:0;
+
+            li {
+
+                &:hover {
+                    color:variables.$text-highlight;
+                    cursor:pointer;
+                }
+            }
+
+            }
+
+            &:hover .dropdown-content {
+            height:28vh;
+            opacity:1;
+            overflow:visible;
             }
         }
 
         .clicked {
             color:variables.$text-highlight;
         }
+
+
     }
 
 }
 .banner_container {
+    position:relative;
     width: 100%;
     height: 50vh;
 
@@ -42,7 +82,7 @@ nav {
         width:100%;
         position:absolute;
         opacity:30%;
-        top:10vh;
+        top:0vh;
     }
 
     img {
@@ -58,6 +98,7 @@ nav {
         display:flex;
         justify-content: center;
         z-index:15;
+        top:5vh;
 
         img {
         object-fit:contain;
