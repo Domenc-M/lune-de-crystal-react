@@ -1,2 +1,6 @@
 @use "./variables.scss";
 
+#root {
+    background-image: url(../../img/bg.png);
+    background-attachment:fixed;
+}

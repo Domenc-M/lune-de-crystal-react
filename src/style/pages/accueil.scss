@@ -1,6 +1,6 @@
 @use "../theme/variables.scss";
 
-h1 {
+h1, h2, h3, h4 {
     font-family:DancingScript;
     font-size:40px;
     text-align:center;
@@ -9,9 +9,11 @@ h1 {
 }
 
 .map-container {
-    height:50vh;
-    width: 50vw;
-    margin:auto;
+    height:35vh;
+    width: 35vw;
+    margin:10vh auto;
+    border:3px solid variables.$text-color;
+    border-radius:3px;
 
     iframe {
         height:100%;
@@ -62,3 +64,37 @@ gap:5vw;
     }
 }
 
+.contact-section {
+    ul {
+        font-family:PlayfairDisplay;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-evenly;
+        padding: 5vh 0;
+        text-align:center;
+
+        .contact-title {
+            font-family:DancingScript;
+            font-size:25px;
+            margin-bottom:2vh;
+        }
+
+        a {
+            display:block;
+            height:10vh;
+            width:10vw;
+            overflow:hidden;
+
+            img {
+                filter: invert(44%) sepia(11%) saturate(1245%) hue-rotate(198deg) brightness(97%) contrast(89%);
+                height:100%;
+                width:100%;
+                object-fit:contain;
+
+                &:hover {
+                    filter:invert(19%) sepia(13%) saturate(2962%) hue-rotate(179deg) brightness(98%) contrast(91%);
+                }
+            }
+        }
+    }
+}
