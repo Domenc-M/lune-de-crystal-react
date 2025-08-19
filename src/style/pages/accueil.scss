@@ -1,18 +1,11 @@
 @use "../theme/variables.scss";
 
 h1 {
-    font-size:25px;
+    font-family:DancingScript;
+    font-size:40px;
     text-align:center;
     margin-top:10vh;
-    margin-bottom:10vh;
     color:variables.$text-color;
-}
-
-p {
-    color:variables.$text-color;
-    margin-left:25vw;
-    margin-right:25vw;
-    margin-bottom:15vh;
 }
 
 .map-container {
@@ -26,14 +19,46 @@ p {
     }
 }
 
-.home-photo-container {
-    height:70vh;
-    width: 70vw;
-    margin:auto;
+.photo-section {
+display:flex;
+flex-direction:row;
+justify-content:center;
+margin:0vw 5vw 0vw 5vw;
+padding: 10vh 0;
+gap:5vw;
 
-    img {
-        height:100%;
-        width:100%;
-        object-fit:contain;
+    p {
+        font-family:PlayfairDisplay;
+        color:variables.$text-color;
+        width:35vw;
+        font-size:25px;
+        margin:auto 0 auto 0;
+
+        a {
+            color:variables.$text-highlight;
+
+            &:hover {
+                color:variables.$text-color;
+                cursor:pointer;
+            }
+        }
+    }
+
+    .divider {
+        height:25vh;
+        width:1px;
+        background-color:variables.$text-color;
+        margin:auto 0 auto 0;
+    }
+
+    .home-photo-container {
+        width:40vw;
+
+        img {
+            height:100%;
+            width:100%;
+            object-fit:contain;
+        }
     }
 }
+

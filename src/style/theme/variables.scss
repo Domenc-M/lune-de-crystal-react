@@ -1,2 +1,14 @@
 $text-color: #203863;
 $text-highlight: #6B6E99;
+
+@font-face {
+  font-family: 'DancingScript';
+  src: local('DancingScript'), url(../../font/DancingScript-VariableFont_wght.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: local('PlayfairDisplay'), url(../../font/PlayfairDisplay-VariableFont_wght.ttf) format('ttf');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
