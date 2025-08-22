@@ -1,0 +1,65 @@
+@use "./variables.scss";
+
+.footer {
+position:relative;
+
+    .footer_img_container {
+        position:absolute;
+        height:40vh;
+        width:100%;
+        top:0;
+        // margin-bottom:0;
+
+        img {
+            z-index:10;
+            display:block;
+            height:100%;
+            width:100%;
+            object-fit:cover;
+            margin:0;
+        }
+    }
+
+    .footer_logo_container {
+        position:absolute;
+        z-index:20;
+        top:15vh;
+        left:45vw;
+        height:10vh;
+
+        img {
+            height:100%;
+            width:100%;
+            object-fit:cover;
+        }
+    }
+
+    .footer_layer {
+        position:absolute;
+        z-index:15;
+        background-color:variables.$text-color;
+        height:100%;
+        width:100%;
+        top:0;
+        opacity:0.9;
+    }
+
+    .footer_navbar {
+        position:relative;
+        z-index:20;
+        display:flex;
+        justify-content:center;
+        gap:10px;
+        height:20vh;
+        align-items:center;
+
+        li {
+            color:white;
+
+            &:hover {
+                cursor:pointer;
+                color:variables.$text-highlight;
+            }
+        }
+    }
+}

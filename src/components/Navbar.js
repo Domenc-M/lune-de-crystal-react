@@ -22,7 +22,7 @@ function Navbar() {
                 <li>Religion</li>
               </ul>
             </li>
-            <li><Link to={"/prestations"}>Prestation</Link></li>
+            <li><Link to={"/prestations"}>Prestations</Link></li>
             <li><Link to={"/evenements"}>Evènements</Link></li>
         </ul>
     </nav>

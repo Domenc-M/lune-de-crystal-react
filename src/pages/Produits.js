@@ -1,10 +1,9 @@
  import React from 'react'
- import Navbar from '../components/Navbar'
  import placeholder from '../img/placeholder-amethyste.webp';
+ 
  function Produits() {
    return (
      <div>
-         <Navbar />
  <section>
         <div class="product_subsection">
             <ul>

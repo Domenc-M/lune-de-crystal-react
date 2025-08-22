@@ -69,7 +69,8 @@ gap:5vw;
         font-family:PlayfairDisplay;
         display:flex;
         flex-direction:row;
-        justify-content:space-evenly;
+        justify-content:center;
+        gap:7vw;
         padding: 5vh 0;
         text-align:center;
 
@@ -77,6 +78,10 @@ gap:5vw;
             font-family:DancingScript;
             font-size:25px;
             margin-bottom:2vh;
+        }
+
+        .contact-sub {
+            font-size:20px;
         }
 
         a {

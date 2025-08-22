@@ -3,4 +3,12 @@
 #root {
     background-image: url(../../img/bg.png);
     background-attachment:fixed;
+    margin:0;
+    padding:0;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
