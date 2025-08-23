@@ -9,21 +9,21 @@ function Navbar() {
     <nav>
         <ul>
             <li>
-              <Link to={"/produits"}>Produits</Link>
+              <Link to={"/produits"} className="navbar_links">Produits</Link>
               <ul className="dropdown-content">
-                <li>Lithothérapie</li>
-                <li>Aromathérapie</li>
-                <li>Bougies</li>
-                <li>Décorations</li>
-                <li>Oracles</li>
-                <li>Encens et fumigations</li>
-                <li>Sonothérapie</li>
-                <li>Pendules</li>
-                <li>Religion</li>
+                <li><Link to="/produits/lithotherapie">Lithothérapie</Link></li>
+                <li><Link to="/produits/aromatherapie">Aromathérapie</Link></li>
+                <li><Link to="/produits/bougies">Bougies</Link></li>
+                <li><Link to="/produits/decorations">Décorations</Link></li>
+                <li><Link to="/produits/oracles">Oracles</Link></li>
+                <li><Link to="/produits/encens">Encens et fumigations</Link></li>
+                <li><Link to="/produits/sonotherapie">Sonothérapie</Link></li>
+                <li><Link to="/produits/pendules">Pendules</Link></li>
+                <li><Link to="/produits/religion">Religion</Link></li>
               </ul>
             </li>
-            <li><Link to={"/prestations"}>Prestations</Link></li>
-            <li><Link to={"/evenements"}>Evènements</Link></li>
+            <li><Link to={"/prestations"} className="navbar_links">Prestations</Link></li>
+            <li><Link to={"/evenements"} className="navbar_links">Evènements</Link></li>
         </ul>
     </nav>
     <section class="banner_container">

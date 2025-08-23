@@ -20,7 +20,7 @@ nav {
             position:relative;
             display:block;
 
-            a {
+            .navbar_links {
             font-family:DancingScript;
             color:variables.$text-highlight;
             font-weight:700;
@@ -44,9 +44,9 @@ nav {
             line-height:30px;
             padding:25px 25px 25px 25px;
             width:160px;
-            margin-left:-60px;
+            margin-left:-45px;
             height:0;
-            color:variables.$text-color;
+            color:variables.$text-highlight;
 
             li {
 
@@ -80,7 +80,7 @@ nav {
     margin-top:10vh;
 
     .banner_layer {
-        background-color:black;
+        background-color:variables.$text-color;
         z-index:11;
         height:50vh;
         width:100%;

@@ -1,0 +1,23 @@
+@use "../theme/variables.scss";
+
+.legal_list {
+    display:flex;
+    height:45vh;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:10vh;
+    font-size:20px;
+    font-family:PlayfairDisplay;
+    line-height:30px;
+    color:variables.$text-color;
+    font-weight:bold;
+
+    ul {
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        align-items:center;
+        justify-content:center;
+    }
+}

@@ -21,7 +21,7 @@ function Footer() {
           <li>Evenements</li>
         </ul>
         <ul className="footer_navbar">
-          <li>Mentions légales</li>
+          <li><Link to={"/mentions-legales"}>Mentions légales</Link></li>
         </ul>
         
     </section>
