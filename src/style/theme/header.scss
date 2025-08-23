@@ -20,16 +20,20 @@ nav {
             position:relative;
             display:block;
 
-            .navbar_links {
-            font-family:DancingScript;
-            color:variables.$text-highlight;
-            font-weight:700;
-            font-size:40px;
+                .navbar_links {
+                font-family:DancingScript;
+                color:variables.$text-highlight;
+                font-weight:700;
+                font-size:40px;
 
-                &:hover {
-                    color:variables.$text-color;
+                    &:hover {
+                        color:variables.$text-color;
+                    }
                 }
-            }
+                
+        .clicked {
+            color:variables.$text-color;
+        }
 
             .dropdown-content {
             display:flex;
@@ -56,6 +60,10 @@ nav {
                 }
             }
 
+            .clicked {
+                color:variables.$text-color;
+            }
+
             }
 
             &:hover .dropdown-content {
@@ -64,12 +72,6 @@ nav {
             overflow:visible;
             }
         }
-
-        .clicked {
-            color:variables.$text-highlight;
-        }
-
-
     }
 
 }
@@ -110,4 +112,5 @@ nav {
         height: 100%;
         }
 }
+
 }

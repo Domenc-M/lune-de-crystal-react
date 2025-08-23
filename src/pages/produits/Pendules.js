@@ -2,7 +2,7 @@ import React from 'react'
 import ProductDetailsSection from '../../components/ProductDetailsSection'
 import placeholder from '../../img/placeholder-amethyste.webp'
 
-export default function Lithotherapie() {
+export default function Pendules() {
    return (
         <div class="product_details">
             <h1>Lithothérapie</h1>
@@ -18,14 +18,14 @@ export default function Lithotherapie() {
 
             <ProductDetailsSection 
             title="Bracelets" 
-            paragraph="Profitez d'une très grande sélection de pierres, qu'elles soient brut ou roulée, petites à garder sur soi, ou plus grosse à poser dans la pièce."
+            paragraph="Si vous voulez emporter votre solution bien-être avec vous, nous pouvons vous proposer des bracelets de perles, que vous cherchiez une pierre en particulier, un de nos mélange maison ou même un bracelet personnalisé."
             img={placeholder}
             reversed={true}
             />
 
             <ProductDetailsSection 
             title="Pendentifs" 
-            paragraph="Profitez d'une très grande sélection de pierres, qu'elles soient brut ou roulée, petites à garder sur soi, ou plus grosse à poser dans la pièce."
+            paragraph="Découvrez également nos pendentifs en pierres, pour ceux qui cherchent une qualité supérieure, ou simplement une "
             img={placeholder}
             />
         </div>

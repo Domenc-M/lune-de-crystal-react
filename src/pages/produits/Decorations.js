@@ -2,7 +2,7 @@ import React from 'react'
 import ProductDetailsSection from '../../components/ProductDetailsSection'
 import placeholder from '../../img/placeholder-amethyste.webp'
 
-export default function Lithotherapie() {
+export default function Decorations() {
    return (
         <div class="product_details">
             <h1>Lithothérapie</h1>
