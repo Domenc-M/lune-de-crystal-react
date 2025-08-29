@@ -1,32 +1,33 @@
 import React from 'react'
 import ProductDetailsSection from '../../components/ProductDetailsSection'
-import placeholder from '../../img/placeholder-amethyste.webp'
+import encens from '../../img/produits/Encens.jpg';
+import sauge from '../../img/produits/Sauge.jpg'
+import resine from '../../img/produits/Resines.jpg'
 
 export default function Encens() {
    return (
         <div class="product_details">
-            <h1>Lithothérapie</h1>
+            <h1>Encens et fumigations</h1>
             <p className="product_details_intro">
-                La Lithothérapie est l'art d'utiliser les pierres pour travailler sur soi même. Elles peuvent vous donner un coups de pouce dans de nombreux domaines : réduire le stress, prendre confiance en soi, trouver les mots juste.
-                Mais ultimement, elles ne font que vous reconnecter avec un potentiel qui existe déjà en vous.
+                Encens et fumigations
             </p>
             <ProductDetailsSection 
-            title="Pierres en forme libre" 
+            title="Encens" 
             paragraph="Profitez d'une très grande sélection de pierres, qu'elles soient brut ou roulée, petites à garder sur soi, ou plus grosse à poser dans la pièce."
-            img={placeholder}
+            img={encens}
             />
 
             <ProductDetailsSection 
-            title="Bracelets" 
+            title="Sauge et Palo Santo" 
             paragraph="Si vous voulez emporter votre solution bien-être avec vous, nous pouvons vous proposer des bracelets de perles, que vous cherchiez une pierre en particulier, un de nos mélange maison ou même un bracelet personnalisé."
-            img={placeholder}
+            img={sauge}
             reversed={true}
             />
 
             <ProductDetailsSection 
-            title="Pendentifs" 
+            title="Résines" 
             paragraph="Découvrez également nos pendentifs en pierres, pour ceux qui cherchent une qualité supérieure, ou simplement une "
-            img={placeholder}
+            img={resine}
             />
         </div>
    )

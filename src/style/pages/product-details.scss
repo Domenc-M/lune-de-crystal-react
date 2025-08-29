@@ -12,6 +12,9 @@
         margin:10vh auto;
         width:50vw;
         text-align:center;
+        font-family:PlayfairDisplay;
+        color:variables.$text-color;
+        font-size:25px;
     }
 
     .product_details_section {
@@ -50,10 +53,11 @@
 
         .product_details_paragraph {
             width:20vw;
-            font-size:20px;
-            margin:5vw;
+            font-size:25px;
             flex:1;
             text-align:center;
+            margin:auto 5vw;
+            color:variables.$text-color;
         }
 
         }

@@ -1,32 +1,33 @@
 import React from 'react'
 import ProductDetailsSection from '../../components/ProductDetailsSection'
-import placeholder from '../../img/placeholder-amethyste.webp'
+import breligion from '../../img/produits/breligion.jpg'
+import medailles from '../../img/produits/medailles.jpg'
+import statuettes from '../../img/produits/statuettes.jpg'
 
 export default function Religion() {
    return (
         <div class="product_details">
-            <h1>Lithothérapie</h1>
+            <h1>Religion</h1>
             <p className="product_details_intro">
-                La Lithothérapie est l'art d'utiliser les pierres pour travailler sur soi même. Elles peuvent vous donner un coups de pouce dans de nombreux domaines : réduire le stress, prendre confiance en soi, trouver les mots juste.
-                Mais ultimement, elles ne font que vous reconnecter avec un potentiel qui existe déjà en vous.
+                Nous possédons des articles religieux, comme des bougies, des médailles ou des statuettes, pour répondre à vos besoins spirituels.
             </p>
             <ProductDetailsSection 
-            title="Pierres en forme libre" 
-            paragraph="Profitez d'une très grande sélection de pierres, qu'elles soient brut ou roulée, petites à garder sur soi, ou plus grosse à poser dans la pièce."
-            img={placeholder}
+            title="Bougies religieuses" 
+            paragraph="Nous possédons des neuvaines à l'image de nombreux saints et anges, pour vos prières."
+            img={breligion}
             />
 
             <ProductDetailsSection 
-            title="Bracelets" 
-            paragraph="Si vous voulez emporter votre solution bien-être avec vous, nous pouvons vous proposer des bracelets de perles, que vous cherchiez une pierre en particulier, un de nos mélange maison ou même un bracelet personnalisé."
-            img={placeholder}
+            title="Médailles" 
+            paragraph="Choisissez parmi un vaste sélection des médailles de saints pour répondre à vos besoins."
+            img={medailles}
             reversed={true}
             />
 
             <ProductDetailsSection 
-            title="Pendentifs" 
-            paragraph="Découvrez également nos pendentifs en pierres, pour ceux qui cherchent une qualité supérieure, ou simplement une "
-            img={placeholder}
+            title="Statuettes" 
+            paragraph="Décorez votre maison avec des statuettes issues de diverses religions pour vous apporter la chance et le bonheur."
+            img={statuettes}
             />
         </div>
    )

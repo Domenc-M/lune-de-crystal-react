@@ -1,32 +1,26 @@
 import React from 'react'
 import ProductDetailsSection from '../../components/ProductDetailsSection'
-import placeholder from '../../img/placeholder-amethyste.webp'
+import rollon from '../../img/produits/rollon.jpg';
+import support from '../../img/produits/support.jpg';
 
 export default function Aromatherapie() {
    return (
         <div class="product_details">
-            <h1>Lithothérapie</h1>
+            <h1>Aromathérapie</h1>
             <p className="product_details_intro">
-                La Lithothérapie est l'art d'utiliser les pierres pour travailler sur soi même. Elles peuvent vous donner un coups de pouce dans de nombreux domaines : réduire le stress, prendre confiance en soi, trouver les mots juste.
-                Mais ultimement, elles ne font que vous reconnecter avec un potentiel qui existe déjà en vous.
+                Avec l'aromathérapie, profitez d'huiles essentielles et de roll-on pour que les parfums vous mettent dans une bonne humeur pour mieux attaquer votre journée.
             </p>
             <ProductDetailsSection 
-            title="Pierres en forme libre" 
-            paragraph="Profitez d'une très grande sélection de pierres, qu'elles soient brut ou roulée, petites à garder sur soi, ou plus grosse à poser dans la pièce."
-            img={placeholder}
+            title="Flacons et roll-ons" 
+            paragraph="Choisissez les parfums qui vous conviennent parmi leurs propriétés : purification, protection, sérénité... Ou prenez simplement celui que vous aimez le plus !"
+            img={rollon}
             />
 
             <ProductDetailsSection 
-            title="Bracelets" 
-            paragraph="Si vous voulez emporter votre solution bien-être avec vous, nous pouvons vous proposer des bracelets de perles, que vous cherchiez une pierre en particulier, un de nos mélange maison ou même un bracelet personnalisé."
-            img={placeholder}
+            title="Support et bijoux" 
+            paragraph="Sous forme de collier ou de bracelets, transportez avec vous des feutrines parfumable, pour pouvoir sentir vos huiles essentielles n'importe où et n'importe quand."
+            img={support}
             reversed={true}
-            />
-
-            <ProductDetailsSection 
-            title="Pendentifs" 
-            paragraph="Découvrez également nos pendentifs en pierres, pour ceux qui cherchent une qualité supérieure, ou simplement une "
-            img={placeholder}
             />
         </div>
    )

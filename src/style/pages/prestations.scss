@@ -1,0 +1,65 @@
+@use "../theme/variables.scss";
+
+
+.page_prestations {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+    .prestation_intro {
+        display:block;
+        text-align:center;
+        margin:5vh 20vw;
+        color:variables.$text-color;
+        font-family:PlayfairDisplay;
+        font-size:25px;
+    }
+
+    .section_prestations {
+        display:inline-block;
+        background-color:white;
+        margin-top:5vh;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+        overflow:hidden;
+        border-radius:25px;
+        margin:5vh auto;
+
+        h2 {
+        margin-top:5vh;
+        }
+
+        strong {
+            display:block;
+            width:100%;
+            text-align:center;
+            font-family:DancingScript;
+            color:variables.$text-color;
+            font-size:30px;
+            margin-top:1vh;
+            
+        }
+
+        p {
+            text-align:center;
+            font-family:PlayfairDisplay;
+            color:variables.$text-color;
+            font-size:20px;
+            margin:5vh auto;
+        }
+
+        .prestation_img_container {
+            width:50vw;
+            height:50vh;
+
+            img {
+                height:100%;
+                width:100%;
+                object-fit:cover;
+            }
+        }
+    }
+
+}
+
+
+

@@ -1,24 +1,24 @@
 @use "../theme/variables.scss";
 
 .product_subsection {
-    display:flex;
-    justify-content:center;
-    flex-direction:column;
-    margin-top:10vh;
+display:flex;
+justify-content:center;
+flex-direction:column;
+margin-top:10vh;
 
     .product_type {
-        text-align:center;
-        font-size:40px;
-        margin-top:10vh;
-        margin-bottom:1vh;
-        color:variables.$text-color;
+    text-align:center;
+    font-size:40px;
+    margin-top:10vh;
+    margin-bottom:1vh;
+    color:variables.$text-color;
     }
 
     .product_desc {
-        text-align:center;
-        margin-bottom:10vh;
-        font-size:20px;
-        color:variables.$text-highlight;
+    text-align:center;
+    margin-bottom:10vh;
+    font-size:20px;
+    color:variables.$text-highlight;
     }
 
     ul {
@@ -29,22 +29,22 @@
     margin-bottom:15vh;
 
         strong {
-            font-size:25px;
-            text-align:center;
-            width:100%;
-            display:block;
-            margin-bottom:5vh;
-            color:variables.$text-color;
+        font-size:25px;
+        text-align:center;
+        width:100%;
+        display:block;
+        margin-bottom:5vh;
+        color:variables.$text-color;
         }
 
         li {
 
             .product_img_container {
-                position:relative;
-                height:40vh;
-                width:40vh;
-                overflow:hidden;
-                border-radius:50px;
+            position:relative;
+            height:40vh;
+            width:40vh;
+            overflow:hidden;
+            border-radius:50px;
 
                 img {
                 position:relative;
@@ -74,7 +74,7 @@
 
                 .product_layer{
                     position:absolute;
-                    background-color:black;
+                    background-color:variables.$text-color;
                     opacity:0%;
                     top:0;
                     width:100%;
@@ -87,15 +87,15 @@
                 &:hover {
 
                     p{
-                    opacity:100%;
+                        opacity:100%;
                     }
 
                     .product_layer{
-                        opacity:50%;
+                        opacity:75%;
                     }
 
                     img{
-                    transform:scale(1.2);
+                        transform:scale(1.2);
                     }
                 }
             }

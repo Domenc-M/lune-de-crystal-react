@@ -1,5 +1,14 @@
  import React from 'react'
+ import {Link} from "react-router-dom";
  import placeholder from '../img/placeholder-amethyste.webp';
+ import lithotherapie from '../img/categories/Lithotherapie.jpg';
+ import aromatherapie from '../img/categories/Aromatherapie.jpg';
+ import bougies from '../img/categories/Bougies.jpg';
+ import decorations from '../img/categories/Decorations.jpg'
+ import oracles from '../img/categories/Oracles.jpg';
+ import fumigation from '../img/categories/Fumigation.jpg';
+ import pendules from '../img/categories/pendules.jpg';
+ import religion from '../img/categories/religion.jpg';
  
  function Produits() {
    return (
@@ -9,27 +18,34 @@
             <ul>
                 <li>
                     <strong>Lithothérapie</strong>
-                    <div class="product_img_container">
-                        <img src={placeholder} alt=""/>
-                        <p>Découvrez en boutique un grand choix de pierres parmi plus de 100 références.</p>
-                        <div class="product_layer"></div>
-                    </div>
+                    <Link to="/produits/lithotherapie">
+                        <div class="product_img_container">
+                            <img src={lithotherapie} alt=""/>
+                            <p>Découvrez en boutique un grand choix de pierres parmi plus de 100 références.</p>
+                            <div class="product_layer"></div>
+                        </div>
+                    </Link>
+
                 </li>
                 <li class="product_container">
                     <strong>Aromathérapie</strong>
-                    <div class="product_img_container">
-                        <img src={placeholder} alt=""/>
-                        <p>Un grand choix de bracelets dont beaucoup de compositions maison, avec possibilité de créations personnalisées.</p>
-                        <div class="product_layer"></div>
-                    </div>
+                    <Link to="/produits/aromatherapie">
+                        <div class="product_img_container">
+                            <img src={aromatherapie} alt=""/>
+                            <p>Choisissez un parfum et emportez le partout avec un bijou aromathérapeutique ou un roll-on.</p>
+                            <div class="product_layer"></div>
+                        </div>
+                    </Link>
                 </li>
                 <li class="product_container">
                     <strong>Bougies</strong>
-                    <div class="product_img_container">
-                        <img src={placeholder} alt=""/>
-                        <p>Toutes sorte de pierres taillées, sur chaîne ou cordon, et colliers de perles.</p>
-                        <div class="product_layer"></div>
-                    </div>
+                    <Link to="/produits/bougies">
+                        <div class="product_img_container">
+                            <img src={bougies} alt=""/>
+                            <p>De grandes bougies décorées pour tout type de rituels.</p>
+                            <div class="product_layer"></div>
+                        </div>
+                    </Link>
                 </li>
             </ul>
         </div>
@@ -37,27 +53,33 @@
             <ul>
                 <li class="product_container">
                     <strong>Décorations</strong>
-                    <div class="product_img_container">
-                        <img src={placeholder} alt=""/>
-                        <p>Le blabla des pierres roulées</p>
-                        <div class="product_layer"></div>
-                    </div>
+                    <Link to="/produits/decorations">
+                        <div class="product_img_container">
+                            <img src={decorations} alt=""/>
+                            <p>Ramenez un peu de la boutique à la maison avec nos décorations Lune de Crystal.</p>
+                            <div class="product_layer"></div>
+                        </div>
+                    </Link>
                 </li>
                 <li class="product_container">
                     <strong>Oracles</strong>
-                    <div class="product_img_container">
-                        <img src={placeholder} alt=""/>
-                        <p>Le blabla des pierres roulées</p>
-                        <div class="product_layer"></div>
-                    </div>
+                    <Link to="/produits/oracles">
+                        <div class="product_img_container">
+                            <img src={oracles} alt=""/>
+                            <p>Que vous aimiez les tarots ou les oracles, nous avons tout ce qu'il vous faut.</p>
+                            <div class="product_layer"></div>
+                        </div>
+                    </Link>
                 </li>
                 <li class="product_container">
                     <strong>Encens et fumigations</strong>
-                    <div class="product_img_container">
-                        <img src={placeholder} alt=""/>
-                        <p>Le blabla des pierres roulées</p>
-                        <div class="product_layer"></div>
-                    </div>
+                    <Link to="/produits/encens">
+                        <div class="product_img_container">
+                            <img src={fumigation} alt=""/>
+                            <p>Pour la purifcation, le dégagement consultez nos encens, résines et plantes.</p>
+                            <div class="product_layer"></div>
+                        </div>
+                    </Link>
                 </li>
             </ul>
         </div>
@@ -65,27 +87,33 @@
             <ul>
                 <li class="product_container">
                     <strong>Sonothérapie</strong>
-                    <div class="product_img_container">
-                        <img src={placeholder} alt=""/>
-                        <p>Le blabla des pierres roulées</p>
-                        <div class="product_layer"></div>
-                    </div>
+                    <Link to="/produits/sonotherapie">
+                        <div class="product_img_container">
+                            <img src={placeholder} alt=""/>
+                            <p>Avec nos tambours et bols tibétains, trouvez la fréquence qui vous ravis.</p>
+                            <div class="product_layer"></div>
+                        </div>
+                    </Link>
                 </li>
                 <li class="product_container">
                     <strong>Pendules</strong>
-                    <div class="product_img_container">
-                        <img src={placeholder} alt=""/>
-                        <p>Le blabla des pierres roulées</p>
-                        <div class="product_layer"></div>
-                    </div>
+                    <Link to="/produits/pendules">
+                        <div class="product_img_container">
+                            <img src={pendules} alt=""/>
+                            <p>Parmi nos nombreux pendules, trouvez celui qui vous parle.</p>
+                            <div class="product_layer"></div>
+                        </div>
+                    </Link>
                 </li>
                 <li class="product_container">
                     <strong>Religion</strong>
-                    <div class="product_img_container">
-                        <img src={placeholder} alt=""/>
-                        <p>Le blabla des pierres roulées</p>
-                        <div class="product_layer"></div>
-                    </div>
+                    <Link to="/produits/religion">
+                        <div class="product_img_container">
+                            <img src={religion} alt=""/>
+                            <p>Nos articles religieux, incluant bougies, médailles ou statuettes.</p>
+                            <div class="product_layer"></div>
+                        </div>
+                    </Link>
                 </li>
             </ul>
         </div>
