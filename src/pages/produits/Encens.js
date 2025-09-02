@@ -9,24 +9,24 @@ export default function Encens() {
         <div class="product_details">
             <h1>Encens et fumigations</h1>
             <p className="product_details_intro">
-                Encens et fumigations
+                Pour améliorer ou purifier les énergies d'un lieu, vous pouvez utiliser des encens traditionnels, des plantes, bois ou des résines à brûler.
             </p>
             <ProductDetailsSection 
             title="Encens" 
-            paragraph="Profitez d'une très grande sélection de pierres, qu'elles soient brut ou roulée, petites à garder sur soi, ou plus grosse à poser dans la pièce."
+            paragraph="Retrouvez un grand choix d'encens traditionnels de qualité, parmi des marques suivies ; Satya, Green Tree, HEM, Herbio, Sagrada Madre..."
             img={encens}
             />
 
             <ProductDetailsSection 
             title="Sauge et Palo Santo" 
-            paragraph="Si vous voulez emporter votre solution bien-être avec vous, nous pouvons vous proposer des bracelets de perles, que vous cherchiez une pierre en particulier, un de nos mélange maison ou même un bracelet personnalisé."
+            paragraph="La sauge et le palo santo sont un classique pour la purification. Vous trouverez de la sauge en fagot ou en sachet."
             img={sauge}
             reversed={true}
             />
 
             <ProductDetailsSection 
-            title="Résines" 
-            paragraph="Découvrez également nos pendentifs en pierres, pour ceux qui cherchent une qualité supérieure, ou simplement une "
+            title="Résines et mélanges" 
+            paragraph="Les résines à brûler sur charbon sont très puissantes au niveau énergétique. Vous trouverez les classiques (benjoin, myrrhe, oliban...) ainsi que les religieux (pontifical, Marie qui défait les noeuds...) et des mélanges."
             img={resine}
             />
         </div>

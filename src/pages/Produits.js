@@ -32,7 +32,7 @@
                     <Link to="/produits/aromatherapie">
                         <div class="product_img_container">
                             <img src={aromatherapie} alt=""/>
-                            <p>Choisissez un parfum et emportez le partout avec un bijou aromathérapeutique ou un roll-on.</p>
+                            <p>Utilisez les huiles essentielles en application ou en les respirant.</p>
                             <div class="product_layer"></div>
                         </div>
                     </Link>
@@ -42,7 +42,7 @@
                     <Link to="/produits/bougies">
                         <div class="product_img_container">
                             <img src={bougies} alt=""/>
-                            <p>De grandes bougies décorées pour tout type de rituels.</p>
+                            <p>Toutes sorte sortes de bougies pour vos prières ou rituels.</p>
                             <div class="product_layer"></div>
                         </div>
                     </Link>
@@ -76,7 +76,7 @@
                     <Link to="/produits/encens">
                         <div class="product_img_container">
                             <img src={fumigation} alt=""/>
-                            <p>Pour la purifcation, le dégagement consultez nos encens, résines et plantes.</p>
+                            <p>Pour améliorer ou purifier les énergies d'un lieu, consultez nos encens, plantes et résines.</p>
                             <div class="product_layer"></div>
                         </div>
                     </Link>
@@ -100,7 +100,7 @@
                     <Link to="/produits/pendules">
                         <div class="product_img_container">
                             <img src={pendules} alt=""/>
-                            <p>Parmi nos nombreux pendules, trouvez celui qui vous parle.</p>
+                            <p>Grand choix de pendules et baguettes de sourcier.</p>
                             <div class="product_layer"></div>
                         </div>
                     </Link>

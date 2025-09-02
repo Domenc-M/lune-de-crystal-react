@@ -8,17 +8,17 @@ export default function Aromatherapie() {
         <div class="product_details">
             <h1>Aromathérapie</h1>
             <p className="product_details_intro">
-                Avec l'aromathérapie, profitez d'huiles essentielles et de roll-on pour que les parfums vous mettent dans une bonne humeur pour mieux attaquer votre journée.
+                Avec l'aromathérapie, profitez d'huiles essentielles en flacons ou en roll-on. Nous vous proposons également des créations maison combinant huiles essentielle et cristaux.
             </p>
             <ProductDetailsSection 
             title="Flacons et roll-ons" 
-            paragraph="Choisissez les parfums qui vous conviennent parmi leurs propriétés : purification, protection, sérénité... Ou prenez simplement celui que vous aimez le plus !"
+            paragraph="Choisissez ce qui vous convient parmi nos propositions pour le réconfort, la sérénité, la protection, la chance..."
             img={rollon}
             />
 
             <ProductDetailsSection 
             title="Support et bijoux" 
-            paragraph="Sous forme de collier ou de bracelets, transportez avec vous des feutrines parfumable, pour pouvoir sentir vos huiles essentielles n'importe où et n'importe quand."
+            paragraph="Dans un collier ou un bracelet, une feutrine impregnée d'huile essentielle vous permet de profiter toute la journée de ses bienfaits."
             img={support}
             reversed={true}
             />

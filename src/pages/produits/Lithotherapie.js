@@ -9,7 +9,7 @@ export default function Lithotherapie() {
         <div class="product_details">
             <h1>Lithothérapie</h1>
             <p className="product_details_intro">
-                La Lithothérapie est l'art d'utiliser les pierres pour travailler sur soi même. Elles peuvent vous donner un coups de pouce dans de nombreux domaines : réduire le stress, prendre confiance en soi, trouver les mots juste.
+                La Lithothérapie est le fait d'utiliser les pierres pour travailler sur soi même. Elles peuvent vous donner un coup de pouce dans de nombreux domaines : réduire le stress, avoir confiance en soi, trouver les mots juste.
                 <br/>Mais ultimement, elles ne font que vous reconnecter avec un potentiel qui existe déjà en vous.
             </p>
             <ProductDetailsSection 
@@ -20,14 +20,14 @@ export default function Lithotherapie() {
 
             <ProductDetailsSection 
             title="Bracelets" 
-            paragraph="Si vous voulez emporter votre solution bien-être avec vous, nous pouvons vous proposer des bracelets de perles, que vous cherchiez une pierre en particulier, un de nos mélange maison ou même un bracelet personnalisé."
+            paragraph="Si vous voulez emporter votre solution bien-être avec vous, nous pouvons vous proposer des bracelets de perles, que vous cherchiez une pierre en particulier, une de nos combinaisons maison ou même un bracelet personnalisé."
             img={bracelets}
             reversed={true}
             />
 
             <ProductDetailsSection 
             title="Pendentifs" 
-            paragraph="Découvrez également nos pendentifs en pierres, pour ceux qui cherchent une qualité supérieure, ou simplement une façon confortable de transporter sa pierre."
+            paragraph="Découvrez également nos pendentifs en pierres, pour ceux qui cherchent une qualité supérieure, ou simplement une autre façon de transporter sa pierre."
             img={pendentifs}
             />
         </div>

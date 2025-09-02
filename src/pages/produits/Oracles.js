@@ -7,7 +7,8 @@ export default function Oracles() {
         <div class="product_details">
             <h1>Oracles</h1>
             <p className="product_details_intro">
-                Retrouvez en boutique toute une collection d'oracle et de tarots, et consultez les sur place pour trouver lesquels vous conviennent.
+                Retrouvez en boutique toute une collection d'oracles et de tarots, des classiques comme des nouveautés.
+                Nos oracles sont consultables sur place, pour que vous puissiez trouver ceux qui vous conviennent.
             </p>
             <ProductDetailsSection 
             title="Pierres en forme libre" 
