@@ -16,9 +16,9 @@ function Footer() {
         </div>
         <ul className="footer_navbar">
           <li><Link to={"/"}>Accueil</Link></li>
-          <li>Produits</li>
-          <li>Prestations</li>
-          <li>Evenements</li>
+          <li><Link to={"/produits"}>Produits</Link></li>
+          <li><Link to={"/prestations"}>Prestations</Link></li>
+          <li><Link to={"/evenements"}>Evenements</Link></li>
         </ul>
         <ul className="footer_navbar">
           <li><Link to={"/mentions-legales"}>Mentions légales</Link></li>

@@ -1,6 +1,5 @@
  import React from 'react'
  import {Link} from "react-router-dom";
- import placeholder from '../img/placeholder-amethyste.webp';
  import lithotherapie from '../img/categories/Lithotherapie.jpg';
  import aromatherapie from '../img/categories/Aromatherapie.jpg';
  import bougies from '../img/categories/Bougies.jpg';
@@ -8,6 +7,7 @@
  import oracles from '../img/categories/Oracles.jpg';
  import fumigation from '../img/categories/Fumigation.jpg';
  import pendules from '../img/categories/pendules.jpg';
+ import tibetain from '../img/produits/tibetain.jpg';
  import religion from '../img/categories/religion.jpg';
  
  function Produits() {
@@ -89,7 +89,7 @@
                     <strong>Sonothérapie</strong>
                     <Link to="/produits/sonotherapie">
                         <div class="product_img_container">
-                            <img src={placeholder} alt=""/>
+                            <img src={tibetain} alt=""/>
                             <p>Avec nos tambours et bols tibétains, trouvez la fréquence qui vous ravis.</p>
                             <div class="product_layer"></div>
                         </div>

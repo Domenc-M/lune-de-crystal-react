@@ -12,3 +12,19 @@ html, body {
   padding: 0;
   height: 100%;
 }
+
+h1, h2, h3, h4 {
+    font-family:DancingScript;
+    font-size:80px;
+    text-align:center;
+    margin-top:10vh;
+    color:variables.$text-color;
+}
+
+h2, h3, h4 {
+    font-family:DancingScript;
+    font-size:40px;
+    text-align:center;
+    margin-top:10vh;
+    color:variables.$text-color;
+}
