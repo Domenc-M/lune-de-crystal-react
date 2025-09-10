@@ -11,6 +11,8 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  font-family: PlayFairDisplay;
+  color: variables.$text-color;
 }
 
 h1, h2, h3, h4 {
@@ -27,4 +29,27 @@ h2, h3, h4 {
     text-align:center;
     margin-top:10vh;
     color:variables.$text-color;
+}
+
+.error_page {
+    font-size:70px;
+    font-family:DancingScript;
+    margin: 25vh auto;
+    width:100%;
+    text-align:center;
+    display:block;
+}
+
+.error_page_link {
+    font-size:50px;
+    font-family:DancingScript;
+    width:100%;
+    text-align:center;
+    display:block;
+    color:variables.$text-highlight;
+    margin-bottom:25vh;
+
+    &:hover {
+        color:variables.$text-color;
+    }
 }
