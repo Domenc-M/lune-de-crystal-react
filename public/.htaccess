@@ -1,11 +1,19 @@
-RewriteCond %{HTTP_HOST} ^www\.lune-de-crystal\.com$
-RewriteRule ^/?$ "http\:\/\/lune-de-crystal\.com\/" [R=301,L]
+DirectoryIndex index.html
 
+# Force non-www
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.lune-de-crystal\.com$ [NC]
+RewriteRule ^(.*)$ https://lune-de-crystal.com/$1 [R=301,L]
+
+# SPA fallback
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
-  RewriteRule ^index\.html$ - [L]
+
+  # Don’t rewrite real files or directories
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
+
+  # Redirect everything else to index.html
   RewriteRule . /index.html [L]
 </IfModule>
