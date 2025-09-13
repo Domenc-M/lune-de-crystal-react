@@ -13,6 +13,15 @@
     }
 }
 
+.subtitle {
+    display:block;
+    font-family:DancingScript;
+    font-size:40px;
+    text-align:center;
+    margin-top:10vh;
+    color:variables.$text-color;
+}
+
 .photo-section {
 display:flex;
 flex-direction:row;
