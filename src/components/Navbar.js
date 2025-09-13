@@ -28,11 +28,11 @@ function Navbar() {
             <li><Link to={"/evenements"} className={"navbar_links" + (location === "/evenements" ? " clicked" : "")}>Evènements</Link></li>
         </ul>
     </nav>
-    <section class="banner_container">
+    <section className="banner_container">
         <Link to={"/"}>
-        <div class="logo_container"><img src={logo} alt=""/></div>
-        <img src={banner} alt="night sky"/>
-        <div class="banner_layer"></div>
+        <div className="logo_container"><img src={logo} alt=""/></div>
+        <img src={banner} alt="lune de crystal"/>
+        <div className="banner_layer"></div>
         </Link>
     </section>
     </div>

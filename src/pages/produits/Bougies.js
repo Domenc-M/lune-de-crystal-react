@@ -9,8 +9,8 @@ export default function Bougies() {
         <div class="product_details">
             <h1>Bougies</h1>
             <p className="product_details_intro">
-                Une bougie peut servir de canal, un outil utile pour manifester et concrétiser vos désirs et vos prières.
-                Nous proposons plusieurs types de bougies, du cierge classique à la neuvaine.
+                Une <strong>bougie</strong> peut servir de canal, un outil utile pour manifester et concrétiser vos désirs et vos prières.
+                Nous proposons plusieurs types de <strong>bougies</strong>, du <strong>cierge</strong> classique à la <strong>neuvaine</strong>.
             </p>
             <ProductDetailsSection 
             title="Bougies totem" 

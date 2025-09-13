@@ -11,7 +11,7 @@
          Prestations
        </h1>
        <p className="prestation_intro">
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+         L'activité conseil et vente est complétée par des séances <strong>bien-être</strong> sur rendez vous. Profitez de moments d'harmonisation énergétique dans un cocon de <strong>bien-être</strong> dans l'arrière boutique.
        </p>
 
         <section className="section_prestations">
@@ -19,9 +19,9 @@
             <img src={holistique} alt=""></img>
           </div>
           <h2>Séance "Harmonisation Holistique"</h2>
-          <strong>45€ 1 heure</strong>
+          <span>45€ 1 heure</span>
           <p>
-            Nettoyage profond des différents corps énergétiques, grâce aux cristaux et aux tambours chamanique.
+            Nettoyage profond des différents corps énergétiques, grâce aux <strong>cristaux</strong> et aux <strong>tambours chamanique</strong>.
             <br/>Libérations des chocs et blessures du passé, des nfluences négatives et des blocages.
           </p>
         </section>
@@ -31,7 +31,7 @@
             <img src={vibratoire} alt=""></img>
           </div>
           <h2>Séance vibratoire</h2>
-          <strong>25€ 30 minutes</strong>
+          <span>25€ 30 minutes</span>
           <p>
             Bols tibétains, bols enc ristal et carillons koshi.
             <br/>Libère des tensions physiques et mentales.
@@ -44,9 +44,9 @@
             <img src={lumiere} alt=""></img>
           </div>
           <h2>Séance "Lumière de cristal"</h2>
-          <strong>25€ 30 minutes</strong>
+          <span>25€ 30 minutes</span>
           <p>
-            Synergie des cristaux, de la lumière, des couleurs.
+            Synergie des <strong>cristaux</strong>, de la lumière, des couleurs.
             <br/>Accueillez une énergie pure et puissante, de nettoyage et de développement personnel et spirituel.
           </p>
         </section>

@@ -28,7 +28,7 @@
         margin-top:5vh;
         }
 
-        strong {
+        span {
             display:block;
             width:100%;
             text-align:center;
@@ -50,6 +50,7 @@
         .evenement_img_container {
             width:50vw;
             height:50vh;
+            overflow:hidden;
 
             img {
                 height:100%;

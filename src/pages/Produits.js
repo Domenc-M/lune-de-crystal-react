@@ -21,7 +21,7 @@
                     <Link to="/produits/lithotherapie">
                         <div class="product_img_container">
                             <img src={lithotherapie} alt=""/>
-                            <p>Découvrez en boutique un grand choix de pierres parmi plus de 100 références.</p>
+                            <p>Découvrez en boutique un grand choix de <strong>pierres</strong> parmi plus de 100 références.</p>
                             <div class="product_layer"></div>
                         </div>
                     </Link>
@@ -32,7 +32,7 @@
                     <Link to="/produits/aromatherapie">
                         <div class="product_img_container">
                             <img src={aromatherapie} alt=""/>
-                            <p>Utilisez les huiles essentielles en application ou en les respirant.</p>
+                            <p>Utilisez les <strong>huiles essentielles</strong> en application ou en les respirant.</p>
                             <div class="product_layer"></div>
                         </div>
                     </Link>
@@ -42,7 +42,7 @@
                     <Link to="/produits/bougies">
                         <div class="product_img_container">
                             <img src={bougies} alt=""/>
-                            <p>Toutes sorte sortes de bougies pour vos prières ou rituels.</p>
+                            <p>Toutes sorte sortes de <strong>bougies</strong> pour vos prières ou <strong>rituels</strong>.</p>
                             <div class="product_layer"></div>
                         </div>
                     </Link>
@@ -56,7 +56,7 @@
                     <Link to="/produits/decorations">
                         <div class="product_img_container">
                             <img src={decorations} alt=""/>
-                            <p>Ramenez un peu de la boutique à la maison avec nos décorations Lune de Crystal.</p>
+                            <p>Ramenez un peu de la boutique à la maison avec nos <strong>décorations</strong> Lune de Crystal.</p>
                             <div class="product_layer"></div>
                         </div>
                     </Link>
@@ -66,7 +66,7 @@
                     <Link to="/produits/oracles">
                         <div class="product_img_container">
                             <img src={oracles} alt=""/>
-                            <p>Que vous aimiez les tarots ou les oracles, nous avons tout ce qu'il vous faut.</p>
+                            <p>Que vous aimiez les <strong>tarots</strong> ou les <strong>oracles</strong>, nous avons tout ce qu'il vous faut.</p>
                             <div class="product_layer"></div>
                         </div>
                     </Link>
@@ -76,7 +76,7 @@
                     <Link to="/produits/encens">
                         <div class="product_img_container">
                             <img src={fumigation} alt=""/>
-                            <p>Pour améliorer ou purifier les énergies d'un lieu, consultez nos encens, plantes et résines.</p>
+                            <p>Pour améliorer ou purifier les énergies d'un lieu, consultez nos <strong>encens</strong>, plantes et <strong>résines</strong>.</p>
                             <div class="product_layer"></div>
                         </div>
                     </Link>
@@ -90,7 +90,7 @@
                     <Link to="/produits/sonotherapie">
                         <div class="product_img_container">
                             <img src={tibetain} alt=""/>
-                            <p>Avec nos tambours et bols tibétains, trouvez la fréquence qui vous ravis.</p>
+                            <p>Avec nos tambours et <strong>bols tibétains</strong>, trouvez la fréquence qui vous ravis.</p>
                             <div class="product_layer"></div>
                         </div>
                     </Link>
@@ -100,7 +100,7 @@
                     <Link to="/produits/pendules">
                         <div class="product_img_container">
                             <img src={pendules} alt=""/>
-                            <p>Grand choix de pendules et baguettes de sourcier.</p>
+                            <p>Grand choix de <strong>pendules</strong> et baguettes de sourcier.</p>
                             <div class="product_layer"></div>
                         </div>
                     </Link>
@@ -110,7 +110,7 @@
                     <Link to="/produits/religion">
                         <div class="product_img_container">
                             <img src={religion} alt=""/>
-                            <p>Nos articles religieux, incluant bougies, médailles ou statuettes.</p>
+                            <p>Nos articles religieux, incluant <strong>bougies</strong>, médailles ou statuettes.</p>
                             <div class="product_layer"></div>
                         </div>
                     </Link>

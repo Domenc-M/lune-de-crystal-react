@@ -8,7 +8,7 @@ export default function Aromatherapie() {
         <div class="product_details">
             <h1>Aromathérapie</h1>
             <p className="product_details_intro">
-                Avec l'aromathérapie, profitez d'huiles essentielles en flacons ou en roll-on. Nous vous proposons également des créations maison combinant huiles essentielle et cristaux.
+                Avec l'<strong>aromathérapie</strong>, profitez d'<strong>huiles essentielles</strong> en flacons ou en <strong>roll-on</strong>. Nous vous proposons également des créations maison combinant <strong>huiles essentielle</strong> et <strong>cristaux</strong>.
             </p>
             <ProductDetailsSection 
             title="Flacons et roll-ons" 

@@ -9,7 +9,7 @@ export default function Lithotherapie() {
         <div class="product_details">
             <h1>Lithothérapie</h1>
             <p className="product_details_intro">
-                La Lithothérapie est le fait d'utiliser les pierres pour travailler sur soi même. Elles peuvent vous donner un coup de pouce dans de nombreux domaines : réduire le stress, avoir confiance en soi, trouver les mots juste.
+                La <strong>Lithothérapie</strong> est le fait d'utiliser les <strong>pierres</strong> pour travailler sur soi même. Elles peuvent vous donner un coup de pouce dans de nombreux domaines : réduire le stress, avoir confiance en soi, trouver les mots juste.
                 <br/>Mais ultimement, elles ne font que vous reconnecter avec un potentiel qui existe déjà en vous.
             </p>
             <ProductDetailsSection 

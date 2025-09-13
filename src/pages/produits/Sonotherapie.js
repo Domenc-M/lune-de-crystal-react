@@ -9,7 +9,7 @@ export default function Sonotherapie() {
         <div class="product_details">
             <h1>Sonothérapie</h1>
             <p className="product_details_intro">
-                La Sonothérapie consiste à utiliser des instruments comme des bols ou des tambours pour envoyer des vibrations positives.
+                La <strong>Sonothérapie</strong> consiste à utiliser des instruments comme des bols ou des tambours pour envoyer des vibrations <strong>positives</strong>.
             </p>
             <ProductDetailsSection 
             title="Bols tibétain" 

@@ -9,7 +9,7 @@ export default function Religion() {
         <div class="product_details">
             <h1>Religion</h1>
             <p className="product_details_intro">
-                Nous possédons des articles religieux, comme des bougies, des médailles ou des statuettes, pour répondre à vos besoins spirituels.
+                Nous possédons des articles religieux, comme des <strong>bougies</strong> (<strong>neuvaines</strong> et votives), des médailles ou des statuettes, pour répondre à vos besoins <strong>spirituels</strong>.
             </p>
             <ProductDetailsSection 
             title="Bougies religieuses" 

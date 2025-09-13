@@ -9,7 +9,7 @@ export default function Encens() {
         <div class="product_details">
             <h1>Encens et fumigations</h1>
             <p className="product_details_intro">
-                Pour améliorer ou purifier les énergies d'un lieu, vous pouvez utiliser des encens traditionnels, des plantes, bois ou des résines à brûler.
+                Pour améliorer ou purifier les énergies d'un lieu, vous pouvez utiliser des <strong>encens</strong> traditionnels, des plantes, bois ou des <strong>résines</strong> à brûler.
             </p>
             <ProductDetailsSection 
             title="Encens" 

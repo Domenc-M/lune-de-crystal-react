@@ -11,4 +11,7 @@
 @use "style/pages/legal.scss";
 @use "style/pages/product-details.scss";
 @use "style/pages/prestations.scss";
-@use "style/pages/evenements.scss"
+@use "style/pages/evenements.scss";
+
+// Dependencies
+@use "react-alice-carousel/lib/scss/alice-carousel.scss";
