@@ -15,9 +15,9 @@ html, body {
   color: variables.$text-color;
 }
 
-h1, h2, h3, h4 {
+h1 {
     font-family:DancingScript;
-    font-size:80px;
+    font-size:4rem;
     text-align:center;
     margin-top:10vh;
     color:variables.$text-color;
@@ -51,5 +51,32 @@ h2, h3, h4 {
 
     &:hover {
         color:variables.$text-color;
+    }
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size:3.5rem;
+    }
+    h2, h3, h4 {
+        font-size:2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size:3rem;
+    }
+    h2, h3, h4 {
+        font-size:1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size:2rem;
+    }
+    h2, h3, h4 {
+        font-size:1rem;
     }
 }

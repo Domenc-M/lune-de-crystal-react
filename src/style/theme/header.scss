@@ -21,10 +21,11 @@ nav {
             display:block;
 
                 .navbar_links {
-                font-family:DancingScript;
-                color:variables.$text-highlight;
-                font-weight:700;
-                font-size:40px;
+                    display:inline-block;
+                    font-family:DancingScript;
+                    color:variables.$text-highlight;
+                    font-weight:700;
+                    font-size:3rem;
 
                     &:hover {
                         color:variables.$text-color;
@@ -42,15 +43,14 @@ nav {
             background-color: #ffffff;
             z-index: 2000;
             transition:all, 0.3s;
-            opacity:0;
             overflow:hidden;
             font-size:18px;
             line-height:30px;
-            padding:25px 25px 25px 25px;
+            padding:25px 25px 0px 25px;
             width:160px;
             margin-left:-45px;
-            height:0;
             color:variables.$text-highlight;
+            height:auto;
 
             li {
 
@@ -64,12 +64,6 @@ nav {
                 color:variables.$text-color;
             }
 
-            }
-
-            &:hover .dropdown-content {
-            height:28vh;
-            opacity:1;
-            overflow:visible;
             }
         }
     }
@@ -113,4 +107,81 @@ nav {
         }
 }
 
+}
+
+@media (max-width: 1024px) {
+
+    .banner_container {
+        height:30vh;
+
+        .logo_container {
+            height:20vh;
+        }
+
+        .banner_layer{
+            height:30vh;
+        }
+    }
+
+    nav {
+        ul {
+            li {
+                .navbar_links {
+                    font-size:2rem;
+                    }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .banner_container {
+        height:30vh;
+
+        .logo_container {
+            height:20vh;
+        }
+
+        .banner_layer{
+            height:30vh;
+        }
+    }
+
+    nav {
+        ul {
+            li {
+                .navbar_links {
+                    font-size:2rem;
+                    }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .banner_container {
+        height:30vh;
+
+        .logo_container {
+            height:20vh;
+        }
+
+        .banner_layer{
+            height:30vh;
+        }
+    }
+
+    nav {
+        ul {
+            li {
+                .navbar_links {
+                    font-size:1.5rem;
+                    }
+                .dropdown-content {
+                    width:15vw;
+                    margin-left:-3vw;
+                }
+            }
+        }
+    }
 }
