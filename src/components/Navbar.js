@@ -18,6 +18,14 @@ function Navbar() {
     return () => checkHover.removeEventListener("change", handler);
   }, []);
 
+  // inside Navbar
+  useLocation();
+
+  // close dropdown whenever the route changes
+  useEffect(() => {
+    setOpen(false);
+  }, [location]);
+
   return (
     <div className='navigation-menu'>
     <nav>

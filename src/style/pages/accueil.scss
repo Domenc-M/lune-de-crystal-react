@@ -104,3 +104,23 @@ gap:5vw;
         }
     }
 }
+
+@media (max-width: 768px) {
+    .photo-section {
+        flex-direction:column;
+        align-items:center;
+
+        .divider {
+            display:none;
+        }
+
+        p {
+            width:70vw;
+            text-align:center;
+        }
+
+        .home-photo-container {
+            width:70vw;
+        }
+    }
+}
