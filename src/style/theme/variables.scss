@@ -3,10 +3,10 @@ $text-highlight: #6B6E99;
 
 @font-face {
   font-family: 'DancingScript';
-  src: local('DancingScript'), url('../../../public/font/DancingScript-VariableFont_wght.ttf') format('ttf');
+  src: url("/fonts/DancingScript-VariableFont_wght.ttf") format('truetype');
 }
 
 @font-face {
   font-family: 'PlayfairDisplay';
-  src: local('PlayfairDisplay'), url('/font/PlayfairDisplay-VariableFont_wght.ttf') format('ttf');
+  src: url("/fonts/PlayfairDisplay-VariableFont_wght.ttf") format('truetype');
 }
