@@ -7,9 +7,9 @@ function Footer() {
   return (
     <section className='footer'>
         
-        <div class="footer_img_container">
+        <div className="footer_img_container">
           <img src={banner} alt="night sky"/>
-          <div class="footer_layer"></div>
+          <div className="footer_layer"></div>
         </div>
 
         <ul className="footer_navbar">
