@@ -41,7 +41,7 @@ function Navbar() {
                 <li><Link to="/produits/bougies" className={location === "/produits/bougies" ? "clicked" : ""}>Bougies</Link></li>
                 <li><Link to="/produits/decorations" className={location === "/produits/decorations" ? "clicked" : ""}>Décorations</Link></li>
                 <li><Link to="/produits/oracles" className={location === "/produits/oracles" ? "clicked" : ""}>Oracles</Link></li>
-                <li><Link to="/produits/encens" className={location === "/produits/encens" ? "clicked" : ""}>Encens et fumigations</Link></li>
+                <li><Link to="/produits/encens" className={location === "/produits/encens" ? "clicked" : ""}>Encens&nbsp;et&nbsp;fumigations</Link></li>
                 <li><Link to="/produits/sonotherapie" className={location === "/produits/sonotherapie" ? "clicked" : ""}>Sonothérapie</Link></li>
                 <li><Link to="/produits/pendules" className={location === "/produits/pendules" ? "clicked" : ""}>Pendules</Link></li>
                 <li><Link to="/produits/religion" className={location === "/produits/religion" ? "clicked" : ""}>Religion</Link></li>

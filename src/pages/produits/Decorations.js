@@ -4,6 +4,8 @@ import attrappesoleil from '../../img/produits/carousels/attrappesoleil.jpg'
 import manekineko from '../../img/produits/carousels/manekineko.jpg'
 import arbre from '../../img/produits/carousels/arbre.jpg'
 import decorations from '../../img/categories/Decorations.jpg'
+import fontainesolo from '../../img/produits/carousels/fontainesolo.jpg'
+import fontainemulti from '../../img/produits/carousels/fontainemulti.jpg'
 import AliceCarousel from 'react-alice-carousel';
 
 export default function Decorations() {
@@ -27,6 +29,12 @@ export default function Decorations() {
     </div>,
     <div className="item" data-value="5">
       <img src={decorations} alt="pendules" draggable={false}></img>
+    </div>,
+    <div className="item" data-value="5">
+      <img src={fontainemulti} alt="pendules" draggable={false}></img>
+    </div>,
+    <div className="item" data-value="5">
+      <img src={fontainesolo} alt="pendules" draggable={false}></img>
     </div>,
     ];
 
